@@ -1,0 +1,68 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.13),rgba(0,0,0,0.8)),url(https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+	height: 100vh;
+}
+
+h1, h2, p{
+    color: #fff;
+}
+
+.header-extradiv {
+    width: 100%;
+    height: auto;
+}
+
+.form-control{
+	background-color: transparent!important;
+}
+
+.header-extradiv h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.extra-div {
+    background: transparent;
+    border: medium none;
+    padding: 50px !important;
+    border-radius: 3px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.extra-div:hover {
+    box-shadow: 0 0 20px 0 #fff;
+    transform: translateY(-20px);
+}
+
+.container {
+    font-family: "Roboto Condensed";
+    
+}
+
+.btn {
+	border: 1px solid #007bff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    color: #fff;
+    
+}
+.btn:hover{
+	box-shadow: 0 0 10px 0 #007bff;
+    transition: .3s;
+    color: #fff;
+}
+
+

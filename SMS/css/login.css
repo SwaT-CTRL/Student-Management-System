@@ -1,0 +1,47 @@
+*{
+	font-family: "Roboto Condensed";
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+	height: 100vh;
+}
+/*========== User Login Form ==========*/
+.login-box{
+	max-width: 450px;
+	float:none;
+	margin: 150px auto;
+}
+
+label{
+    color: #fff;
+}
+h1{
+	color:#fff;
+	text-align: center;
+	font-family: "Roboto Condensed";
+
+}
+.form-control{
+    background-color: transparent!important;
+    color: #fff;
+}
+.btn {
+	color: #fff!important;
+	padding: 10px 20px!important;
+    border: 0!important;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6))!important;
+    font-weight: bold!important;
+    cursor: pointer!important;
+	left: 50%;
+	border-radius: 10px;
+}
+.btn:hover{
+	color: #fff;
+	box-shadow: 0 0 2px 0 #fff;
+	transition: .3s;
+}
